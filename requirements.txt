@@ -1,0 +1,9 @@
+fastapi
+# Use the 'standard' extra to pull in a websocket server and HTTP/2 support
+uvicorn[standard]
+pydantic
+pyscard
+# Ensure a websocket protocol implementation is available
+websockets
+pyjwt
+python-multipart
